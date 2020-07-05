@@ -1,0 +1,20 @@
+<!-- <input type="text" class="form-control" [(ngModel)]="getString">
+<button type="button" class="btn btn-primary" (click)="runRandom()">Random</button> -->
+<!-- <p [ngStyle]="{backgroundColor: onGetRandomColor()}" [ngClass]="{ongreen: onGetRandomColor() == 'green'}">
+    {{onGetInputText()}}</p> -->
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>I'm working!</h2>
+                <button class="btn btn-primary" (click)="addServer()">Add Server</button>
+                <br><br>
+                <ul class="list-group">
+                    <li class="list-group-item" *ngFor="let server of serverArr; index as i" (click)="removeServer(i)">
+                        {{server}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
