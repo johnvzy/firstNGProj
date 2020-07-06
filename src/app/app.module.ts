@@ -14,7 +14,10 @@ import { RecipeItemComponent } from './recipes/recipes-list/recipe-item/recipe-i
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { TodoListModule } from './todo-list/todo-list.module';
-import { BindTestComponent } from './bind-test/bind-test.component'
+import { BindTestComponent } from './bind-test/bind-test.component';
+import { HighlightDirective } from './highlight.directive'
+import { ExponentialStrengthPipe } from './exponential-strength.pipe';
+import { FlyingHeroesPipe } from './flying-heroes.pipe'
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { BindTestComponent } from './bind-test/bind-test.component'
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    BindTestComponent
+    BindTestComponent,
+    HighlightDirective,
+    ExponentialStrengthPipe,
+    FlyingHeroesPipe
   ],
   imports: [
     BrowserModule,

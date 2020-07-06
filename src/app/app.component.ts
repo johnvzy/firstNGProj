@@ -11,4 +11,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'john';
+  items: string[] = [];
+  prtBankName:string = 'RBC'
+
+  addItem(newItem: string) {
+    this.items.push(newItem);
+  }
 }
